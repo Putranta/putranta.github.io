@@ -161,12 +161,7 @@ body[data-theme="dark"] .circle {
     } 
 }
 
-@media (max-width: 576px) {
-    .circle-wrap {
-      margin-top: 5px;
-      marging-buttom: 10px;
-    } 
-}
+
 
 .logopa {
     width: 30px;
@@ -192,6 +187,17 @@ body[data-theme="dark"] .circle {
     display: block;
     width: calc(6.25vw - 2px);
     background: #181818
+}
+
+.img-sertif {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .circle-wrap {
+      margin-top: 5px;
+      marging-buttom: 10px;
+    } 
 }
 
 
