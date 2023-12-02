@@ -1,0 +1,202 @@
+.bg-putih {
+    background: #ffff;
+}
+body[data-theme="dark"] .bg-putih {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.circle{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin: 0 -4.1px;
+}
+
+.circle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+
+}
+
+.circle span::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: calc(50% - 7.5px);
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #333,
+    0 0 20px #333,
+    0 0 40px #333,
+    0 0 60px #333,
+    0 0 80px #333,
+    0 0 100px #333;
+    transform: scale(0.1);
+    animation: animate 4s linear infinite;
+    animation-delay: calc(0.1s * var(--i))
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: scale(1);
+    }
+    50%, 100%
+    {
+        transform: scale(0.1);
+    }
+}
+
+.circle:nth-child(2) {
+    transform: rotate(-180deg);
+}
+
+.circle:nth-child(2) span::before {
+    animation-delay: calc(-0.1s * var(--i))
+}
+
+.logo {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: tahoma;
+}
+body[data-theme="dark"] .logo {
+    color: rgba(255, 255, 255, 0.7);
+}
+body[data-theme="dark"] .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+}
+body[data-theme="dark"] .nav-item .nav-link:hover {
+    color: #fff;
+}
+body[data-theme="dark"] .nav-item .active {
+    color: #fff;
+}
+body[data-theme="dark"] .navbar-toggler {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cutoff-text {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+
+.logo span {
+    color: #e91e63;
+}
+
+.profile-content {
+    margin-top: 12px;
+}
+
+.profile-content h3 {
+    font-size: 1.5em;
+    color: #333;
+    font-weight:200;
+    transition: 0.5s;
+}
+.profile-content h2 {
+    font-size: 3em;
+    color: #333;
+    font-weight:700;
+    transition: 0.5s;
+}
+.profile-content h2 span {
+    color: #e91e63;
+}
+
+.profile-content .detail {
+    color: #333;
+}
+body[data-theme="dark"] .profile-content .detail {
+    color: #e91e63;
+}
+
+body[data-theme="dark"] .profile-content h2 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body[data-theme="dark"] .profile-content h3 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+body[data-theme="dark"] .circle span::before {
+    background: #00ff0a;
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+}
+
+body[data-theme="dark"] .circle {
+    animation: animateColor 8s linear infinite;
+}
+@keyframes animateColor {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-content h2 {
+      min-height: 115px;
+      font-size: 2.5em;
+    } 
+}
+
+@media (max-width: 576px) {
+    .circle-wrap {
+      margin-top: 5px;
+      marging-buttom: 10px;
+    } 
+}
+
+.logopa {
+    width: 30px;
+}
+.logobg {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border-radius: 50%;
+    
+}
+
+.blog-head {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background: #181818
+}
+.blog-head span {
+    position: relative;
+    display: block;
+    width: calc(6.25vw - 2px);
+    background: #181818
+}
+
+
+  
+  
+  
+  
+  
