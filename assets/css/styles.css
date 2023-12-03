@@ -316,6 +316,7 @@ a.dotted-link:hover {
 .latest .item .title {
   font-size: 18px;
   margin-top: 0;
+  cursor:pointer;
 }
 
 .latest .item .title .label {
@@ -325,6 +326,7 @@ a.dotted-link:hover {
 
 .latest .item .title a {
   color: #778492;
+  cursor:pointer;
 }
 
 .latest .item .title a:hover {
@@ -443,6 +445,7 @@ a.dotted-link:hover {
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1.5;
+  cursor:pointer;
 }
 
 .projects .item .title a {
@@ -624,6 +627,7 @@ a.dotted-link:hover {
 .education .item .title {
   font-size: 16px;
   margin-top: 0;
+  cursor:pointer;
 }
 
 .education .item .university {
@@ -760,6 +764,7 @@ a.dotted-link:hover {
   margin-bottom: 1rem;
 }
 
+
 .dark-mode-switch .form-switch {
   display: flex;
 }
@@ -791,6 +796,10 @@ body[data-theme="dark"] {
 }
 
 body[data-theme="dark"] a:hover {
+  color: #e91e63;
+}
+
+body[data-theme="dark"] .title-hover:hover {
   color: #e91e63;
 }
 
@@ -847,7 +856,7 @@ body[data-theme="dark"] .latest .item .title a, body[data-theme="dark"] .project
 }
 
 body[data-theme="dark"] .latest .item .title a:hover, body[data-theme="dark"] .projects .item .title a:hover, body[data-theme="dark"] .blog .item .title a:hover {
-  color: #fff;
+  color: #e91e63;
 }
 
 body[data-theme="dark"] .testimonials .item .source .name {
@@ -856,6 +865,9 @@ body[data-theme="dark"] .testimonials .item .source .name {
 
 body[data-theme="dark"] .education .item .title {
   color: rgba(255, 255, 255, 0.9);
+}
+body[data-theme="dark"] .education .item .title:hover {
+  color: #e91e63;
 }
 
 body[data-theme="dark"] .languages .item .title {
@@ -870,9 +882,9 @@ body[data-theme="dark"] .experience .item .title .place a {
   color: rgba(255, 255, 255, 0.7);
 }
 
-body[data-theme="dark"] .experience .item .title .place a:hover {
+/* body[data-theme="dark"] .experience .item .title .place a:hover {
   color: rgba(255, 255, 255, 0.9);
-}
+} */
 
 body[data-theme="dark"] .aside .subheading {
   color: rgba(255, 255, 255, 0.9);

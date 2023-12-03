@@ -22,16 +22,16 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <link rel="shortcut icon" href="storage/logopa.png" />
+    <link rel="shortcut icon" href="assets/images/logopadarkArtboard 1.png" />
     <link id="theme-style" rel="stylesheet" href="assets/css/custom.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container pt-4">
             <div class="row align-items-center isi">
                 <div class="col">
-                    <img style="width: 180px;" class="profile-image img-fluid float-start rounded-circle"
+                    <img style="width: 180px;" class="profile-image img-fluid float-start rounded-circle mb-3"
                         src="assets/images/me2.png" alt="profile image" />
                     <div class="profile-content mb-3">
                         <h3>Hi there...</h3>
@@ -128,15 +128,17 @@
 
                         <div class="content">
                             <p class="text-justify">
-                            <p>Hi there! I&#39;m Putranta, a&nbsp;<strong>passionate</strong>&nbsp;web developer with a
+                            <p class="text-justify"> Hi there! I&#39;m Putranta,
+                                a&nbsp;<strong>passionate</strong>&nbsp;web developer with a
                                 strong affinity for mathematics and logic. Solving complex problems and finding elegant
                                 solutions is something that truly excites me.&nbsp;</p>
 
-                            <p>I&#39;m on a continuous&nbsp;<strong>journey of learning</strong>&nbsp;and improving my
+                            <p class="text-justify">I&#39;m on a continuous&nbsp;<strong>journey of
+                                    learning</strong>&nbsp;and improving my
                                 skills. I strive to create meaningful and impactful web experiences that leave a
                                 positive impression on users.</p>
 
-                            <p>I am thrilled to take on new challenges and collaborate on exciting
+                            <p class="text-justify">I am thrilled to take on new challenges and collaborate on exciting
                                 projects.&nbsp;<strong>Let&#39;s work together</strong>&nbsp;to bring innovative ideas
                                 to life!</p>
                             </p>
@@ -154,15 +156,19 @@
                         <div class="content">
                             <div class="item featured text-center">
                                 <div class="featured-image has-ribbon">
-                                    <img class="img-fluid rounded shadow-sm" src="assets/images/projects/projectspp.png"
-                                        alt="" />
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#showPrSpp">
+                                        <img class="img-fluid project-image rounded shadow-sm"
+                                            src="assets/images/projects/projectspp.png" alt="" /></a>
                                     <div class="ribbon">
                                         <div class="text">New</div>
                                     </div>
                                 </div>
-
-                                <h3 class="title mb-3">Aplikasi Web Administrasi Sekolah dengan Framework CodeIgniter 4
-                                </h3>
+                                <a data-bs-toggle="modal" data-bs-target="#showPrSpp">
+                                    <h3 class="title title-hover mb-3">Aplikasi Web Administrasi Sekolah dengan
+                                        Framework
+                                        CodeIgniter 4
+                                    </h3>
+                                </a>
 
                                 <div class="desc text-justify">
                                     <p>Project Pembayaran SPP yang dibuat dengan framework CodeIgniter 4 adalah sebuah
@@ -170,24 +176,28 @@
                                         (Sumbangan Pembinaan Pendidikan) pada sebuah institusi pendidikan...</p>
                                 </div>
                                 <!--//desc-->
-                                <a class="btn btn-cta-secondary" href="">See
-                                    Detail</a>
+                                <a class="btn btn-cta-secondary" href="" data-bs-toggle="modal"
+                                    data-bs-target="#showPrSpp">See Detail</a>
                             </div>
                             <!--//item-->
                             <hr class="divider" />
 
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="" target="_blank">
-                                    <img class="img-fluid project-image rounded shadow-sm" src="" alt="" />
+                                <a class="col-md-4 col-12" data-bs-toggle="modal" data-bs-target="#showPrCms">
+                                    <img class="img-fluid project-image rounded shadow-sm"
+                                        src="assets/images/projects/projekcms.png" alt="" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="" target="_blank"></a></h3>
+                                    <h3 class="title"><a data-bs-toggle="modal" data-bs-target="#showPrCms">Web
+                                            CMS Laravel 10</a></h3>
                                     <div class="desc text-justify">
-
+                                        <p>Projek ini bertujuan untuk mengembangkan sebuah Content Management System
+                                            (CMS) menggunakan framework Laravel versi 10. CMS ini akan memberikan
+                                            fungsionalitas untuk...</p>
                                     </div>
-                                    <p><a class="more-link" href="" target="_blank"><i
-                                                class="fas fa-external-link-alt"></i>Find out
-                                            more</a>
+                                    <p><a class="more-link" data-bs-toggle="modal" data-bs-target="#showPrCms"><i
+                                                class="fas fa-external-link-alt"></i>Go
+                                            Detail</a>
                                     </p>
                                 </div>
                                 <!--//desc-->
@@ -275,25 +285,26 @@
                 <!--//section-->
 
 
-                <!--//section-->
+                <!--//Certifs section-->
                 <aside class="education aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Certification</h2>
                         <div class="content">
                             <div class="item">
-                                <a href="" data-bs-toggle="modal" data-bs-target="#show1">
-                                    <h3 class="title"><i class="fas fa-graduation-cap"></i>Alibaba Cloud for Developer
+                                <a data-bs-toggle="modal" data-bs-target="#show1">
+                                    <h3 class="title title-hover"><i class="fas fa-graduation-cap"></i> Alibaba Cloud
+                                        for Developer
                                     </h3>
                                 </a>
-                                <h4 class="university">alibabacloud<span class="year">2023</span>
+                                <h4 class="university">alibabacloud <span class="year">| 2023</span>
                                 </h4>
                             </div>
                             <div class="item">
-                                <a href="" data-bs-toggle="modal" data-bs-target="#showCertifDS">
-                                    <h3 class="title"><i class="fas fa-graduation-cap"></i>Data Science
+                                <a data-bs-toggle="modal" data-bs-target="#showCertifDS">
+                                    <h3 class="title title-hover"><i class="fas fa-graduation-cap"></i> Data Science
                                     </h3>
                                 </a>
-                                <h4 class="university">dicoding<span class="year">2023</span>
+                                <h4 class="university">dicoding <span class="year">| 2023</span>
                                 </h4>
                             </div>
                         </div>
@@ -311,7 +322,7 @@
     <!-- Modal certifs -->
     <div class="modal fade" id="show1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Alibaba Cloud for Developer</h1>
@@ -368,6 +379,18 @@
                                 <a href="assets/pdf/dataScience2.pdf" target="_blank"> pdf</a>
                             </div>
                         </li>
+                        <li class="list-group-item">
+                            <h5>Memulai Pemrograman dengan Python</h5>
+                            <div class="mb-2">
+                                <img src="assets/images/certifs/dataScience3.png" class="img-sertif" alt="">
+                            </div>
+                            <div class="mb-2">
+                                <strong>Dicoding (2023) </strong>|
+                                <a href="https://www.dicoding.com/certificates/JMZV16L8JXN9" target="_blank"> to url
+                                </a> |
+                                <a href="assets/pdf/dataScience3.pdf" target="_blank"> pdf</a>
+                            </div>
+                        </li>
                     </ul>
 
                 </div>
@@ -379,6 +402,156 @@
         </div>
     </div>
     <!-- //Modal certifs -->
+
+    <!-- Modal Projek -->
+    <div class="modal fade" id="showPrSpp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Aplikasi Web Administrasi Sekolah dengan
+                        Framework
+                        CodeIgniter 4</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-2">
+                        <img src="assets/images/projects/projectspp.png" width="100%" alt="">
+                    </div>
+                    <div class="mb-2 text-justify p-md-3">
+                        <p>Project Pembayaran SPP yang dibuat dengan framework CodeIgniter 4 adalah sebuah aplikasi
+                            berbasis web yang bertujuan untuk memudahkan manajemen pembayaran SPP (Sumbangan Pembinaan
+                            Pendidikan) pada sebuah institusi pendidikan. Aplikasi ini memiliki fitur-fitur unggulan
+                            yang mencakup manajemen data, pembayaran SPP, pembayaran lain-lain yang dinamis, laporan
+                            keuangan, dan fitur cetak. Berikut adalah deskripsi detail dari setiap fitur:</p>
+
+                        <ul>
+                            <li><strong>Manajemen Data</strong>&nbsp;</li>
+                        </ul>
+
+                        <p>Fitur ini berfungsi untuk mengelola data siswa dan data pembayaran. Aplikasi ini memiliki
+                            antarmuka administratif yang memungkinkan pengguna untuk melakukan operasi CRUD (Create,
+                            Read, Update, Delete) terhadap data siswa, seperti informasi pribadi, kelas, dan status
+                            pembayaran. Selain itu, pengguna juga dapat mengelola data pembayaran, termasuk jenis
+                            pembayaran, nominal, dan status pembayaran.</p>
+
+                        <ul>
+                            <li><strong>Pembayaran&nbsp; SPP&nbsp;</strong></li>
+                        </ul>
+
+                        <p>Fitur ini memungkinkan pegawai administrasi sekolah untuk melakukan pembayaran SPP melalui
+                            aplikasi. Pengguna dapat memilih siswa yang akan melakukan pembayaran, kemudian sistem akan
+                            menampilkan jumlah SPP yang harus dibayar sesuai dengan periode pembayaran tertentu. Proses
+                            pembayaran ini akan terintegrasi dengan sistem pembayaran online untuk memudahkan transaksi.
+                        </p>
+
+                        <ul>
+                            <li><strong>Pembayaran Lain lain yang Dinamis</strong></li>
+                        </ul>
+
+                        <p>Selain pembayaran SPP, aplikasi ini juga menyediakan fitur pembayaran untuk biaya-biaya lain
+                            yang bersifat dinamis, seperti biaya ekstrakurikuler, seragam, buku, atau kegiatan khusus
+                            lainnya. Administrator dapat menambahkan jenis pembayaran baru dan menentukan nominalnya
+                            sesuai kebutuhan.</p>
+
+                        <ul>
+                            <li><strong>Laporan&nbsp; Keuangan</strong></li>
+                        </ul>
+
+                        <p>Fitur ini memberikan kemudahan dalam memantau dan menganalisis laporan keuangan institusi
+                            pendidikan. Aplikasi akan menghasilkan laporan secara otomatis berdasarkan data pembayaran
+                            yang ada dalam sistem. Laporan keuangan ini mencakup informasi mengenai total penerimaan
+                            dari SPP dan pembayaran lain-lain, total pengeluaran, sisa saldo, serta rincian transaksi
+                            secara periodik</p>
+
+                        <ul>
+                            <li><strong>Fitur Cetak</strong></li>
+                        </ul>
+
+                        <p>Untuk memudahkan dalam proses pencatatan dan arsip, aplikasi ini memiliki fitur cetak yang
+                            memungkinkan administrator atau petugas keuangan mencetak laporan keuangan, tanda bukti
+                            pembayaran, atau kwitansi langsung dari aplikasi. Cetak ini dapat dilakukan dalam format
+                            yang sudah ditentukan sesuai dengan kebutuhan institusi</p>
+
+                        <p>Keuntungan menggunakan framework CodeIgniter 4 adalah kemudahan dalam pengembangan aplikasi
+                            berbasis web yang cepat, aman, dan handal. Dengan menggunakan CodeIgniter 4, proyek
+                            pembayaran SPP ini dapat diimplementasikan dengan baik, serta memberikan keunggulan dalam
+                            segi skalabilitas dan performa.</p>
+
+                        <p>Penggunaan aplikasi ini diharapkan dapat meningkatkan efisiensi dalam proses administrasi
+                            pembayaran SPP, mempermudah akses informasi keuangan, serta memberikan pengalaman yang lebih
+                            baik bagi siswa dan wali murid dalam melakukan pembayaran secara online.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="showPrCms" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Web CMS Laravel 10</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-2">
+                        <img src="assets/images/projects/projekcms.png" width="100%" alt="">
+                    </div>
+                    <div class="mb-2 text-justify p-md-3">
+                        <p>Projek ini bertujuan untuk mengembangkan sebuah Content Management System (CMS) menggunakan
+                            framework Laravel versi 10. CMS ini akan memberikan fungsionalitas untuk membuat, mengelola,
+                            dan mengatur konten secara dinamis. Dibangun dengan konsep modularitas, keamanan yang ketat,
+                            dan kinerja yang optimal, CMS ini akan menjadi solusi yang tangguh untuk manajemen konten
+                            web modern.</p>
+
+                        <p><strong>Fitur Utama:</strong></p>
+
+                        <ol>
+                            <li><strong>Manajemen Konten </strong><br> Pengguna dapat membuat, mengedit, dan menghapus
+                                konten dengan antarmuka pengguna yang intuitif.</li>
+                            <li><strong>Manajemen Pengguna</strong><br> Sistem otentikasi yang aman dan manajemen
+                                pengguna
+                                untuk memberikan hak akses yang tepat kepada setiap pengguna.</li>
+                            <li><strong>SEO-Friendly</strong><br> URL yang ramah SEO, penanganan meta tag, dan peta
+                                situs
+                                yang otomatis untuk meningkatkan visibilitas di mesin pencari.</li>
+                            <li><strong>Keamanan Tingkat Tinggi</strong><br> Perlindungan terhadap serangan umum seperti
+                                SQL injection, cross-site scripting (XSS), dan cross-site request forgery (CSRF).</li>
+                            <li><strong>Responsif dan Ramah Pengguna</strong><br> Antarmuka yang responsif untuk
+                                mendukung
+                                penggunaan dari berbagai perangkat dan tampilan.</li>
+                            <li><strong>Manajemen File</strong><br> Mengelola file dan gambar terkait konten dengan
+                                sistem
+                                penyimpanan yang efisien.</li>
+                            <li><strong>Logging dan Pemantauan</strong><br> Pencatatan kejadian dan pemantauan untuk
+                                memudahkan identifikasi masalah dan analisis kinerja.</li>
+                        </ol>
+
+                        <p><strong>Teknologi yang Digunakan:</strong></p>
+
+                        <ol>
+                            <li><strong>Laravel 10</strong><br> Framework utama untuk pengembangan backend.</li>
+                            <li><strong>MySQL </strong><br> Sistem manajemen basis data untuk menyimpan data.</li>
+                            <li><strong>Bootstrap 5</strong><br> Framework CSS untuk desain responsif.</li>
+                            <li><strong>JavaScript </strong><br> Untuk meningkatkan interaktivitas di antarmuka
+                                pengguna.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- //Modal Projek -->
 
     <!-- ******FOOTER****** -->
     <footer class="footer">

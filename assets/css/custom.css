@@ -200,6 +200,17 @@ body[data-theme="dark"] .circle {
     } 
 }
 
+.title-hover:hover {
+    color: #e91e63;
+}
+
+.project-image {
+    cursor: pointer;
+}
+
+.more-link {
+    cursor: pointer;
+}
 
   
   
